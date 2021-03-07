@@ -9,7 +9,7 @@ function ServerConnection(userName, url) {
 	this.url = (typeof(url) == 'undefined') ? ServerConnection.WEBSOCKET_URL : url;
 }
 
-ServerConnection.WEBSOCKET_URL = '//curvy.herokuapp.com/';
+ServerConnection.WEBSOCKET_URL = '//curvy-server-eu.herokuapp.com//';
 //ServerConnection.WEBSOCKET_URL = 'http://curvy-beta.herokuapp.com/';
 //ServerConnection.WEBSOCKET_URL = 'http://localhost:8888/';
 
